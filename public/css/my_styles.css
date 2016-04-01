@@ -1,0 +1,36 @@
+/* Don't let the header overlap the main content */
+.starter-template {
+    margin-top:70px;
+}
+
+.chitter-icon {
+	padding-top: 1em;
+  font-size: 1.25em !important;
+  color: #fff;
+}
+/* Edits to bootstrap */
+
+.input-group {
+	/* make the search bars without 'GO!' buttons have full width */
+	width: 100%;
+}
+
+/* Change the navbar colours to the Twitter colours */
+.navbar-inverse {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.tweet-body {
+	background-color: #f3f3f3; /* change it later to a better colour */
+	padding-bottom: 100%; /* makes the background colour go all the way to the bottom of the page */
+}

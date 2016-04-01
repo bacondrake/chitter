@@ -1,0 +1,6 @@
+- @client.search(@search_term, result_type: "recent").take(@search_amount).each do |tweet|
+  %p
+    %strong>= tweet.user.name
+    \: #{tweet.text}
+    %br/
+    Retweets: #{tweet.retweet_count}
